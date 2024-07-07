@@ -1,10 +1,10 @@
 
 
-function Card({ link, name }) {
+function Card({ link, name, handleClick}) {
     return (
-        <div className="card">
+        <div className="card" id={name} onClick={handleClick}>
             <img  src={link} alt="An Image" />
-            <h2>{name}</h2>
+            <h3>{name}</h3>
         </div>
         
     )

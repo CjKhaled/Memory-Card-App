@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Urbanist";
+}
+
+body {
+  background-image: url('https://i.ytimg.com/vi/BvQ_H76HY9s/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: bolder;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-self: center;
+  padding: 20px;
+  border: solid 1px white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.card {
+  cursor: pointer;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  border: solid 1px white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  gap: 40px;
+}
